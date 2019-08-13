@@ -8,11 +8,11 @@ This is the terraform code to construct a private api gateway which consists of 
     * Deployment to test stage
     * Includes resource policy to allow access only from specific VPC
     
-##Prerequisite
+## Prerequisite
 1. Terraform v0.12.3 (terraform should be added to the PATH variable in env)
 2. AWS access to create the above resources
 
-##How to run
+## How to run
 1. Checkout the code
 2. cd to the checked out directory
 3. run the command
