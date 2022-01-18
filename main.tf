@@ -129,7 +129,7 @@ resource "aws_api_gateway_deployment" "private_api_deployment" {
 /* Creating an EC2 if you want to test the api. If you have EC2 already in same vpc, then skip this */
 resource "aws_instance" "private_api_ec2" {
   instance_type        = "t2.micro"
-  ami				   = "ami-0b898040803850657"
+  ami		       = "ami-0b898040803850657"
   #specify one of the subnet in the vpc endpoint 
   subnet_id            = "${var.subnets[0]}"
   key_name             = "aws-124163686835-non-prod-crre01"
